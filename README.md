@@ -2,7 +2,7 @@
 
 Useful, simple and completely independent class for validation form data.
 
-## Usage
+## Usage ##
 
 Here is an example of of how you can use it to validate your form:
 
