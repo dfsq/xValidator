@@ -6,7 +6,7 @@ Useful, simple and completely independent class for validation form data.
 
 Here is an example of of how you can use it to validate your form:
 
-```ruby
+```PHP
 // Include class itself
 require_once "xValidator.class.php";
 
