@@ -6,7 +6,7 @@ Useful, simple and completely independent class for validation form data.
 
 Here is an example of of how you can use it to validate your form:
 
-```php
+```java
 // Include class itself
 require_once "xValidator.class.php";
 
@@ -27,7 +27,7 @@ $validator = new xValidator(array(
 
 And this is how we check form on submit:
 
-```php
+```ruby
 // Form submited
 if (!empty($_POST))
 {
