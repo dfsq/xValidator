@@ -9,7 +9,7 @@ Here is an example of of how you can use it to validate your form:
 ```php
 <?php
 
-...
+// Some code here ...
 
 // Include class itself
 require_once "xValidator.class.php";
@@ -31,7 +31,11 @@ $validator = new xValidator(array(
 
 And this is how we check form on submit:
 
-```php startinline
+```php
+<?php
+
+// ...
+
 // Form submited
 if (!empty($_POST))
 {
