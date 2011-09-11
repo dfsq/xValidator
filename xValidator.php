@@ -208,7 +208,7 @@ class xValidator
 	 */
 	public function check($post)
 	{
-		$data = (isset($this->group)) ? $post[$this->group] : $post;
+		$data = isset($this->group) ? $post[$this->group] : $post;
 
 		// remember data
 		$this->data = $data;
