@@ -58,3 +58,10 @@ $this->display('register/index', array(
 ));
 ```
 
+## Demo page ##
+
+[View demo page].
+
+View more usage examples and demo.
+
+[View demo page]: http://dfsq.info/projects/php_xvalidator_class
