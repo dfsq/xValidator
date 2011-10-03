@@ -505,9 +505,8 @@ class UnsignedConstraint extends Constraint
 
 	public static function check($value, $r)
 	{
-		$value = (int)$value;
 
-		if ($value < 0 || !is_numeric($value))
+		if (!is_numeric($value) || $value < 0)
 		{
 			self::pushError(isset($r['message']) ? $r['message'] : self::ERROR);
 			return false;
